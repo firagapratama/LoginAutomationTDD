@@ -9,7 +9,7 @@ Feature: Login with TDD
 
     Examples:
     | username | password | result |
-    | 90000004 | satu2tiga | Success |
-    | 90000003 | satuduatiga | Failed |
-    | 900000030 | satu2tiga  | Failed |
+    | {your_right_username} | {your_right_password} | Success |
+    | {your_right_username} | {your_wrong_password} | Failed |
+    | {your_wrong_username} | {your_right_password}  | Failed |
 
